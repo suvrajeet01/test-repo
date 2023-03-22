@@ -1,0 +1,12 @@
+file pushed without using git clone
+
+commands used
+
+git init
+git remote add origin https://github.com/suvrajeet01/test-repo.git
+git add .
+git status
+git commit -m "commit msg"
+git status 
+git branch -M trunk
+git push -u origin trunk
