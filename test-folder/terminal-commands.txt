@@ -81,3 +81,150 @@ E:\Project\1>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E:\Project\1>git init
+Initialized empty Git repository in E:/Project/1/.git/
+
+E:\Project\1>git remote add origin https://github.com/suvrajeet01/test-repo.git
+
+E:\Project\1>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test-folder/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\Project\1>git add .
+warning: in the working copy of 'test-folder/1.git/COMMIT_EDITMSG', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/HEAD', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/config', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/description', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/applypatch-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/commit-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/fsmonitor-watchman.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/post-update.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/pre-applypatch.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/pre-commit.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/pre-merge-commit.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/pre-push.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/pre-rebase.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/pre-receive.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/prepare-commit-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/push-to-checkout.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/hooks/update.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/info/exclude', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/logs/HEAD', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/logs/refs/heads/trunk', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test-folder/1.git/refs/heads/trunk', LF will be replaced by CRLF the next time Git touches it
+
+E:\Project\1>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test-folder/1.git/COMMIT_EDITMSG
+        new file:   test-folder/1.git/HEAD
+        new file:   test-folder/1.git/config
+        new file:   test-folder/1.git/description
+        new file:   test-folder/1.git/hooks/applypatch-msg.sample
+        new file:   test-folder/1.git/hooks/commit-msg.sample
+        new file:   test-folder/1.git/hooks/fsmonitor-watchman.sample
+        new file:   test-folder/1.git/hooks/post-update.sample
+        new file:   test-folder/1.git/hooks/pre-applypatch.sample
+        new file:   test-folder/1.git/hooks/pre-commit.sample
+        new file:   test-folder/1.git/hooks/pre-merge-commit.sample
+        new file:   test-folder/1.git/hooks/pre-push.sample
+        new file:   test-folder/1.git/hooks/pre-rebase.sample
+        new file:   test-folder/1.git/hooks/pre-receive.sample
+        new file:   test-folder/1.git/hooks/prepare-commit-msg.sample
+        new file:   test-folder/1.git/hooks/push-to-checkout.sample
+        new file:   test-folder/1.git/hooks/update.sample
+        new file:   test-folder/1.git/index
+        new file:   test-folder/1.git/info/exclude
+        new file:   test-folder/1.git/logs/HEAD
+        new file:   test-folder/1.git/logs/refs/heads/trunk
+        new file:   test-folder/1.git/objects/1e/e202f022f6b155dab40d0f1db17fc44cd68001
+        new file:   test-folder/1.git/objects/90/063e39af13fcbbef71de439b9f6fc88ab27864
+        new file:   test-folder/1.git/objects/d0/0b83800adf7d00af8f4dcacdb7559645713dad
+        new file:   test-folder/1.git/objects/fe/d745cc9be998a13f465d01d7556339a6be2d61
+        new file:   test-folder/1.git/refs/heads/trunk
+        new file:   test-folder/terminal-commands.txt
+        new file:   test-folder/test-file.txt
+
+
+E:\Project\1>git commit -m "test-commit"
+[master (root-commit) 0c40cb1] test-commit
+ 28 files changed, 913 insertions(+)
+ create mode 100644 test-folder/1.git/COMMIT_EDITMSG
+ create mode 100644 test-folder/1.git/HEAD
+ create mode 100644 test-folder/1.git/config
+ create mode 100644 test-folder/1.git/description
+ create mode 100644 test-folder/1.git/hooks/applypatch-msg.sample
+ create mode 100644 test-folder/1.git/hooks/commit-msg.sample
+ create mode 100644 test-folder/1.git/hooks/fsmonitor-watchman.sample
+ create mode 100644 test-folder/1.git/hooks/post-update.sample
+ create mode 100644 test-folder/1.git/hooks/pre-applypatch.sample
+ create mode 100644 test-folder/1.git/hooks/pre-commit.sample
+ create mode 100644 test-folder/1.git/hooks/pre-merge-commit.sample
+ create mode 100644 test-folder/1.git/hooks/pre-push.sample
+ create mode 100644 test-folder/1.git/hooks/pre-rebase.sample
+ create mode 100644 test-folder/1.git/hooks/pre-receive.sample
+ create mode 100644 test-folder/1.git/hooks/prepare-commit-msg.sample
+ create mode 100644 test-folder/1.git/hooks/push-to-checkout.sample
+ create mode 100644 test-folder/1.git/hooks/update.sample
+ create mode 100644 test-folder/1.git/index
+ create mode 100644 test-folder/1.git/info/exclude
+ create mode 100644 test-folder/1.git/logs/HEAD
+ create mode 100644 test-folder/1.git/logs/refs/heads/trunk
+ create mode 100644 test-folder/1.git/objects/1e/e202f022f6b155dab40d0f1db17fc44cd68001
+ create mode 100644 test-folder/1.git/objects/90/063e39af13fcbbef71de439b9f6fc88ab27864
+ create mode 100644 test-folder/1.git/objects/d0/0b83800adf7d00af8f4dcacdb7559645713dad
+ create mode 100644 test-folder/1.git/objects/fe/d745cc9be998a13f465d01d7556339a6be2d61
+ create mode 100644 test-folder/1.git/refs/heads/trunk
+ create mode 100644 test-folder/terminal-commands.txt
+ create mode 100644 test-folder/test-file.txt
+
+E:\Project\1>git status
+On branch master
+nothing to commit, working tree clean
+
+E:\Project\1>git branch -M trunk
+
+E:\Project\1>git push -u origin trunk
+To https://github.com/suvrajeet01/test-repo.git
+ ! [rejected]        trunk -> trunk (fetch first)
+error: failed to push some refs to 'https://github.com/suvrajeet01/test-repo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Project\1>
