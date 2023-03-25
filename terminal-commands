@@ -95,3 +95,206 @@ Your branch is ahead of 'origin/trunk' by 1 commit.
 
 nothing to commit, working tree clean
 gitpod /workspace/test-repo (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/test-repo (trunk) $ wget https://github.com/PacktPublishing/Hands-on-Bitcoin-Programming-with-Python/archive/refs/heads/master.zip
+--2023-03-25 19:02:07--  https://github.com/PacktPublishing/Hands-on-Bitcoin-Programming-with-Python/archive/refs/heads/master.zip
+Resolving github.com (github.com)... 192.30.255.113
+Connecting to github.com (github.com)|192.30.255.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/PacktPublishing/Hands-on-Bitcoin-Programming-with-Python/zip/refs/heads/master [following]
+--2023-03-25 19:02:07--  https://codeload.github.com/PacktPublishing/Hands-on-Bitcoin-Programming-with-Python/zip/refs/heads/master
+Resolving codeload.github.com (codeload.github.com)... 192.30.255.121
+Connecting to codeload.github.com (codeload.github.com)|192.30.255.121|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/zip]
+Saving to: ‘master.zip’
+
+master.zip                         [ <=>                                              ] 126.94K  --.-KB/s    in 0.03s   
+
+2023-03-25 19:02:08 (4.55 MB/s) - ‘master.zip’ saved [129990]
+
+gitpod /workspace/test-repo (trunk) $ unzip '/workspace/test-repo/master.zip'
+Archive:  /workspace/test-repo/master.zip
+c5d903672593a0792dd472ea10e624b85705d2ed
+   creating: Hands-on-Bitcoin-Programming-with-Python-master/
+   creating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter01/
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter01/Resources.txt  
+   creating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/Resources.txt  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/explore_blocks.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/get_exchange_rates.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/get_stats.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/hello_bitcoin.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/history.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter02/multi_sig_address.py  
+   creating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/Resources.txt  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/bitcoin_trade.py  
+   creating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/__init__.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/base.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/bitfinex.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/bitmex.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/bitstamp.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/bitvc.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/bravenewcoin.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/coinapult.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/coindesk.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/futures796.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/helpers.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/huobi.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/kraken.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/okcoin.py  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter03/exchanges/poloniex.py  
+   creating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/Bitcoin Games Data Analysis.ipynb  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/Bitcoin Graphs.ipynb  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/Bitcoin Price.ipynb  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/bitcoin-price.csv  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/coindesk-USD-close.csv  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/difficulty.csv  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/n-transactions-per-block.csv  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/Chapter04/total-bitcoins.csv  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/LICENSE  
+  inflating: Hands-on-Bitcoin-Programming-with-Python-master/README.md  
+gitpod /workspace/test-repo (trunk) $ rmdir -r 
+.git/                                            test-folder/
+Hands-on-Bitcoin-Programming-with-Python-master/ 
+gitpod /workspace/test-repo (trunk) $ rmdir -r Hands-on-Bitcoin-Programming-with-Python-master/
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+gitpod /workspace/test-repo (trunk) $ rmdir -f Hands-on-Bitcoin-Programming-with-Python-master/
+rmdir: invalid option -- 'f'
+Try 'rmdir --help' for more information.
+gitpod /workspace/test-repo (trunk) $ rm -f Hands-on-Bitcoin-Programming-with-Python-master/
+rm: cannot remove 'Hands-on-Bitcoin-Programming-with-Python-master/': Is a directory
+gitpod /workspace/test-repo (trunk) $ rm -r Hands-on-Bitcoin-Programming-with-Python-master/
+gitpod /workspace/test-repo (trunk) $ touch terminal-commands
+gitpod /workspace/test-repo (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        master.zip
+        terminal-commands
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/test-repo (trunk) $ git add .
+gitpod /workspace/test-repo (trunk) $ git commit -m "added-files-from-gitpod"
+[trunk 8646055] added-files-from-gitpod
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 master.zip
+ create mode 100644 terminal-commands
+gitpod /workspace/test-repo (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/test-repo (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/test-repo (trunk) $ git add .
+gitpod /workspace/test-repo (trunk) $ git commit -m "terminal-commands"
+[trunk fceb5dd] terminal-commands
+ 1 file changed, 97 insertions(+)
+gitpod /workspace/test-repo (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/test-repo (trunk) $ git push
+remote: Permission to suvrajeet01/test-repo.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/test-repo.git/': The requested URL returned error: 403
+gitpod /workspace/test-repo (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/test-repo (trunk) $ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 121.41 KiB | 13.49 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/suvrajeet01/test-repo.git
+   91f24cd..fceb5dd  trunk -> trunk
+gitpod /workspace/test-repo (trunk) $ 
